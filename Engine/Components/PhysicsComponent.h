@@ -2,7 +2,7 @@
 #include "Framework/Component.h"
 #include "Math/Vector2.h"
 
-namespace Solas
+namespace neu
 {
 	class Actor;
 

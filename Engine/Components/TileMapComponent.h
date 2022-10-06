@@ -4,7 +4,7 @@
 #include "Math/Vector2.h"
 #include <vector>
 
-namespace Solas
+namespace neu
 {
 	class TilemapComponent : public Component
 	{

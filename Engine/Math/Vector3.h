@@ -1,7 +1,7 @@
 #pragma once
 #include <cmath>
 
-namespace Solas
+namespace neu
 {
 	struct Vector3
 	{

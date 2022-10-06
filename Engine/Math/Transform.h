@@ -4,7 +4,7 @@
 #include "MathUtils.h"
 #include "Serialization/Serializable.h"
 
-namespace Solas
+namespace neu
 {
 	struct Transform : public ISerializable
 	{

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-namespace Solas
+namespace neu
 {
 	struct Color
 	{

@@ -12,7 +12,7 @@
 #define new new
 #endif // _DEBUG
 
-namespace Solas
+namespace neu
 {
 	void InitializeMemory();
 }

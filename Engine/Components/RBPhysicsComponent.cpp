@@ -1,7 +1,7 @@
 #include "RBPhysicsComponent.h"
 #include "Engine.h"
 
-namespace Solas
+namespace neu
 {
 	RBPhysicsComponent::~RBPhysicsComponent()
 	{

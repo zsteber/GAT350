@@ -2,7 +2,7 @@
 #include "Core/Logger.h"
 #include <SDL_ttf.h>
 
-namespace Solas
+namespace neu
 {
 	Font::Font(const std::string& filename, int fontSize)
 	{

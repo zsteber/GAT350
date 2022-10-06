@@ -1,7 +1,7 @@
 #include "Engine.h"
 #include "Framework/EventManager.h"
 
-namespace Solas
+namespace neu
 {
 	Renderer g_renderer;
 	InputSystem g_inputSystem;

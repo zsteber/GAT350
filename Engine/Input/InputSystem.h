@@ -4,7 +4,7 @@
 #include <array>
 #include <vector>
 
-namespace Solas
+namespace neu
 {
 	class InputSystem
 	{

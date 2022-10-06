@@ -1,7 +1,7 @@
 #pragma once
 #include "Json.h"
 
-namespace Solas
+namespace neu
 {
 	class ISerializable
 	{

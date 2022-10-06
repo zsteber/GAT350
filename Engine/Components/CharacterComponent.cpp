@@ -1,7 +1,7 @@
 #include "CharacterComponent.h"
 #include "Engine.h"
 
-namespace Solas
+namespace neu
 {
 	CharacterComponent::~CharacterComponent()
 	{

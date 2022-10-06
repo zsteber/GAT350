@@ -6,7 +6,7 @@
 struct SDL_Texture;
 struct SDL_Surface;
 
-namespace Solas
+namespace neu
 {
 	class Renderer;
 

@@ -2,7 +2,7 @@
 #include <cstdarg>
 #include <iostream>
 
-namespace Solas
+namespace neu
 {
 	Logger g_logger;
 

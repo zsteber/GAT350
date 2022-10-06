@@ -1,6 +1,6 @@
 #include "Vector2.h"
 
-namespace Solas
+namespace neu
 {
 	const Vector2 Vector2::one{ 1, 1 };
 	const Vector2 Vector2::zero{ 0, 0 };

@@ -4,13 +4,13 @@
 #include <vector>
 #include <string>
 
-namespace Solas
+namespace neu
 {
 	class Model : public Resource
 	{
 	public:
 		Model() = default;
-		Model(const std::vector<Solas::Vector2>& points, const Solas::Color& color) :
+		Model(const std::vector<neu::Vector2>& points, const neu::Color& color) :
 			m_points{ points },
 			m_color{ color }
 		{}
@@ -27,8 +27,8 @@ namespace Solas
 		float GetRadius() { return m_radius; }
 
 	private:
-		Solas::Color m_color;
-		std::vector<Solas::Vector2> m_points;
+		neu::Color m_color;
+		std::vector<neu::Vector2> m_points;
 
 		float m_radius = 0;
 	};

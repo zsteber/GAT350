@@ -3,7 +3,7 @@
 #include <sstream>
 #include <string>
 
-namespace Solas
+namespace neu
 {
 	struct Vector2
 	{

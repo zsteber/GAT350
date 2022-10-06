@@ -4,7 +4,7 @@
 #include "Physics/PhysicsSystem.h"
 #include <functional>
 
-namespace Solas
+namespace neu
 {
 	class CollisionComponent : public Component, public ICollision
 	{

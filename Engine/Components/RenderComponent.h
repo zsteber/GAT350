@@ -3,7 +3,7 @@
 #include "Math/Rect.h"
 #include "Math//Vector2.h"
 
-namespace Solas
+namespace neu
 {
 	class Renderer;
 

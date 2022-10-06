@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-namespace Solas
+namespace neu
 {
 	class Resource
 	{

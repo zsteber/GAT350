@@ -1,7 +1,7 @@
 #pragma once
 #include "RenderComponent.h"
 
-namespace Solas
+namespace neu
 {
 	class Model;
 

@@ -2,7 +2,7 @@
 #include "Engine.h"
 #include <iostream> 
 
-namespace Solas
+namespace neu
 {
     void CollisionComponent::Initialize()
     {

@@ -3,7 +3,7 @@
 #include <list>
 #include <memory>
 
-namespace Solas
+namespace neu
 {
 	// forward declaration
 	class Actor;

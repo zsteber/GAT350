@@ -1,7 +1,7 @@
 #include "EventManager.h"
 
 
-namespace Solas
+namespace neu
 {
 	void EventManager::Initialize()
 	{

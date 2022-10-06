@@ -1,7 +1,7 @@
 #include "PhysicsSystem.h"
 #include "Math/MathUtils.h"
 
-namespace Solas
+namespace neu
 {
 	const float PhysicsSystem::pixelsPerUnit = 48.0f;
 

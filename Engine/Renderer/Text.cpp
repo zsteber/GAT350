@@ -4,7 +4,7 @@
 #include <SDL.h>
 #include <SDL_ttf.h> 
 
-namespace Solas
+namespace neu
 {
 	Text::~Text()
 	{

@@ -2,11 +2,14 @@
 #include "Math/Vector2.h"
 #include "Math/Color.h"
 #include "Math/Matrix3x3.h"
+#include <glad/glad.h> 
+#include <SDL.h> 
 
 struct SDL_Renderer;
 struct SDL_Window;
 
-namespace Solas
+
+namespace neu
 {
 	class Texture;
 	struct Transform;
@@ -21,7 +24,7 @@ namespace Solas
 		void Initialize();
 		void Shutdown();
 
-		void CreateWindow(const char* name, int width, int height);
+		void CreateWindow(const char* name, int width, int height, bool fullscreen);
 		void BeginFrame();
 		void EndFrame();
 		void setClearColor(const Color color) { m_clearColor = color; }
@@ -55,5 +58,7 @@ namespace Solas
 
 		Matrix3x3 m_view;
 		Matrix3x3 m_viewport;
+
+		SDL_GLContext m_context;
 	};
 }

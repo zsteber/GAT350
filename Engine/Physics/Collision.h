@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Solas
+namespace neu
 {
 	class Actor;
 

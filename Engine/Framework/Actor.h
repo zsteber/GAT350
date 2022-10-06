@@ -3,7 +3,7 @@
 #include "Component.h"
 #include <vector>
 
-namespace Solas
+namespace neu
 {
 	class Scene;
 	class Renderer;

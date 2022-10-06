@@ -5,7 +5,7 @@
 
 
 
-namespace Solas
+namespace neu
 {
 	void PlayerComponent::Initialize()
 	{
@@ -16,11 +16,11 @@ namespace Solas
 	{
 		// move left/right
 		Vector2 direction = Vector2::zero;
-		if (Solas::g_inputSystem.GetKeyState(Solas::key_left) == InputSystem::State::Held)
+		if (neu::g_inputSystem.GetKeyState(neu::key_left) == InputSystem::State::Held)
 		{
 			direction = Vector2::left;
 		}
-		if (Solas::g_inputSystem.GetKeyState(Solas::key_right) == InputSystem::State::Held)
+		if (neu::g_inputSystem.GetKeyState(neu::key_right) == InputSystem::State::Held)
 		{
 			direction = Vector2::right;
 		}

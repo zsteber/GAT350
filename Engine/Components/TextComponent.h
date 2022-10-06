@@ -4,7 +4,7 @@
 #include "Math/Vector2.h"
 #include <memory>
 
-namespace Solas
+namespace neu
 {
 	class Font;
 	class Texture;

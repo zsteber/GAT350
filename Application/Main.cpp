@@ -1,25 +1,37 @@
 #include "Engine.h" 
 #include <iostream> 
 
-int main()
+int main(int argc, char** argv)
 {
-	Solas::InitializeMemory();
+	neu::InitializeMemory();
 
-	Solas::Engine::Instance().Initialize();
-	Solas::Engine::Instance().Register();
+	neu::Engine::Instance().Initialize();
+	neu::Engine::Instance().Register();
 
-	Solas::g_renderer.CreateWindow("Neumont", 800, 600);
+	neu::g_renderer.CreateWindow("Neumont", 800, 600, false);
 
 	bool quit = false;
 	while (!quit)
 	{
-		Solas::Engine::Instance().Update();
+		neu::Engine::Instance().Update();
 
-		if (Solas::g_inputSystem.GetKeyState(Solas::key_escape) == Solas::InputSystem::State::Pressed) quit = true;
+		if (neu::g_inputSystem.GetKeyState(neu::key_escape) == neu::InputSystem::State::Pressed) quit = true;
 
-		Solas::g_renderer.BeginFrame();
-		Solas::g_renderer.EndFrame();
+		neu::g_renderer.BeginFrame();
+		glBegin(GL_TRIANGLES);
+
+		glColor3f(1.0f, 0.0f, 0.0f);
+		glVertex2f(-0.5f, -0.5f);
+		glColor3f(0.0f, 1.0f, 0.0f);
+		glVertex2f(0.0f, 0.5f);
+		glColor3f(0.0f, 0.0f, 1.0f);
+		glVertex2f(0.5f, -0.5f);
+
+		glEnd();
+		neu::g_renderer.EndFrame();
+		
 	}
 
-	Solas::Engine::Instance().Shutdown();
+	neu::Engine::Instance().Shutdown();
+	return 0;
 }

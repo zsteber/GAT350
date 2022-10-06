@@ -2,7 +2,7 @@
 #include "Factory.h"
 #include <iostream>
 
-namespace Solas
+namespace neu
 {
 	void Scene::Initialize()
 	{

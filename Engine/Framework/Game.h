@@ -1,7 +1,7 @@
 #pragma once
 #include <memory>
 
-namespace Solas
+namespace neu
 {
 	class Renderer;
 	class Scene;

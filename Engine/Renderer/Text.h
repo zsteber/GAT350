@@ -3,7 +3,7 @@
 
 struct SDL_Texture;
 
-namespace Solas
+namespace neu
 {
 	class Font;
 	class Renderer;

@@ -1,7 +1,7 @@
 #include "AudioComponent.h"
 #include "Engine.h"
 
-namespace Solas
+namespace neu
 {
 	AudioComponent::~AudioComponent()
 	{

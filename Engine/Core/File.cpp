@@ -3,7 +3,7 @@
 #include <filesystem>
 #include <fstream>
 
-namespace Solas
+namespace neu
 {
 	void SetFilePath(const std::string& pathname)
 	{

@@ -6,7 +6,7 @@
 struct _TTF_Font;
 struct SDL_Surface;
 
-namespace Solas
+namespace neu
 {
 	struct Color;
 

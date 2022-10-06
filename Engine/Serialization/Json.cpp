@@ -7,7 +7,7 @@
 #include <fstream>
 
 
-namespace Solas::json
+namespace neu::json
 {
 	bool Load(const std::string filename, rapidjson::Document& document)
 	{

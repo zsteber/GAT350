@@ -1,7 +1,7 @@
 #include "TextComponent.h"
 #include "Engine.h"
 
-namespace Solas
+namespace neu
 {
 	void TextComponent::Update()
 	{

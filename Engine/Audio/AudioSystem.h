@@ -10,7 +10,7 @@ namespace FMOD
 	class Sound;
 }
 
-namespace Solas
+namespace neu
 {
 	class AudioSystem
 	{

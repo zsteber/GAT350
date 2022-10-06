@@ -3,7 +3,7 @@
 #include "Math/Rect.h"
 #include <map>
 
-namespace Solas
+namespace neu
 {
 	class Texture;
 

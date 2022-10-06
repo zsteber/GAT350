@@ -45,7 +45,7 @@
 #include <list>
 #include <variant>
 
-namespace Solas
+namespace neu
 {
 	extern Renderer g_renderer;
 	extern InputSystem g_inputSystem;

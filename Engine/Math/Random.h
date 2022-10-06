@@ -1,7 +1,7 @@
 #pragma once
 #include <random>
 
-namespace Solas
+namespace neu
 {
 	inline void SeedRandom(int seed) { srand(seed); }
 

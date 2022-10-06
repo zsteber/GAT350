@@ -1,6 +1,6 @@
 #include "Matrix3x3.h"
 
-namespace Solas
+namespace neu
 {
 	// 1 0 0
 	// 0 1 0

@@ -1,7 +1,7 @@
 #pragma once
 #include "C:\Users\loren\OneDrive\Desktop\GAT350\ThirdParty\box2d\include\box2d\box2d.h"
 
-namespace Solas
+namespace neu
 {
 	class ContactListener : public b2ContactListener
 	{

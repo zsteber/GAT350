@@ -5,7 +5,7 @@ namespace FMOD
 	class Channel;
 }
 
-namespace Solas
+namespace neu
 {
 	class AudioChannel
 	{

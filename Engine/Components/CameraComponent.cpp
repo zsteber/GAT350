@@ -2,7 +2,7 @@
 #include "Framework/Actor.h" 
 #include "Engine.h" 
 
-namespace Solas
+namespace neu
 {
     void CameraComponent::Initialize()
     {

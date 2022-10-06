@@ -2,7 +2,7 @@
 #include "RenderComponent.h"
 #include "Math/Rect.h"
 
-namespace Solas
+namespace neu
 {
 	class Texture;
 

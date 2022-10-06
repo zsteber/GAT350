@@ -5,7 +5,7 @@
 #include <memory>
 #include <cstdarg>
 
-namespace Solas
+namespace neu
 {
 	class ResourceManager
 	{

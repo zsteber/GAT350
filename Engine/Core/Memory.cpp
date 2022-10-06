@@ -1,6 +1,6 @@
 #include "Memory.h"
 
-namespace Solas
+namespace neu
 {
 	void InitializeMemory()
 	{

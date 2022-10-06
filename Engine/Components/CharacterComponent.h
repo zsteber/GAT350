@@ -3,7 +3,7 @@
 #include "Physics/Collision.h"
 #include "Framework/Event.h"
 
-namespace Solas
+namespace neu
 {
 	class CharacterComponent : public Component, public ICollision, public INotify
 	{

@@ -3,7 +3,7 @@
 #include "Components/RenderComponent.h"
 #include "Engine.h"
 
-namespace Solas
+namespace neu
 {
 	Actor::Actor(const Actor& other)
 	{

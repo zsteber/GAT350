@@ -7,7 +7,7 @@
 #include <iostream>
 #include <cstdarg>
 
-namespace Solas
+namespace neu
 {
 	Model::Model(const std::string& filename)
 	{
@@ -44,8 +44,8 @@ namespace Solas
 		// draw model
 		for (size_t i = 0; i < m_points.size() - 1; i++)
 		{
-			Solas::Vector2 p1 = Vector2::Rotate((m_points[i] * scale), angle) + position;
-			Solas::Vector2 p2 = Vector2::Rotate((m_points[i + 1] * scale), angle) + position;
+			neu::Vector2 p1 = Vector2::Rotate((m_points[i] * scale), angle) + position;
+			neu::Vector2 p2 = Vector2::Rotate((m_points[i + 1] * scale), angle) + position;
 
 			renderer.DrawLine(p1, p2, m_color);
 		}
@@ -59,8 +59,8 @@ namespace Solas
 		// draw model
 		for (size_t i = 0; i < m_points.size() - 1; i++)
 		{
-			Solas::Vector2 p1 = mx * m_points[i];
-			Solas::Vector2 p2 = mx * m_points[i + 1];
+			neu::Vector2 p1 = mx * m_points[i];
+			neu::Vector2 p2 = mx * m_points[i + 1];
 
 			renderer.DrawLine(p1, p2, m_color);
 		}
@@ -70,7 +70,7 @@ namespace Solas
 	{
 		std::string buffer;
 
-		if (!Solas::ReadFile(filename, buffer))
+		if (!neu::ReadFile(filename, buffer))
 		{
 			LOG("Error could not read file &s", filename.c_str());
 			return false;

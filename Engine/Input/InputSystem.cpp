@@ -2,7 +2,7 @@
 #include <SDL.h>
 #include <iostream>
 
-namespace Solas
+namespace neu
 {
 	const uint32_t key_space = SDL_SCANCODE_SPACE;
 	const uint32_t key_up = SDL_SCANCODE_W;
@@ -52,7 +52,7 @@ namespace Solas
 		m_prevMouseButtonState = m_mouseButtonState;
 		int x, y;
 		uint32_t buttons = SDL_GetMouseState(&x, &y);
-		m_mousePosition = Solas::Vector2{ x , y };
+		m_mousePosition = neu::Vector2{ x , y };
 		m_mouseButtonState[0] = buttons & SDL_BUTTON_LMASK; // buttons [0001] & [0RML] 
 		m_mouseButtonState[1] = buttons & SDL_BUTTON_MMASK; // buttons [0010] & [0RML] 
 		m_mouseButtonState[2] = buttons & SDL_BUTTON_RMASK; // buttons [0100] & [0RML]

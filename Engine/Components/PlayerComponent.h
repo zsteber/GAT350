@@ -3,7 +3,7 @@
 #include "Physics/Collision.h"
 #include "CharacterComponent.h"
 
-namespace Solas
+namespace neu
 {
 	class PlayerComponent : public CharacterComponent
 	{

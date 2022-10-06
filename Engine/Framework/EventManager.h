@@ -3,7 +3,7 @@
 #include <map>
 #include <list>
 
-namespace Solas
+namespace neu
 {
 	class EventManager
 	{

@@ -4,7 +4,7 @@
 #include <memory>
 #include <map>
 
-namespace Solas
+namespace neu
 {
 	class GameObject;
 

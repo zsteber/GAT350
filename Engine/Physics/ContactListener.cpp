@@ -2,7 +2,7 @@
 #include "Framework/Actor.h"
 #include "Components/CollisionComponent.h"
 
-namespace Solas
+namespace neu
 {
 
 	void ContactListener::BeginContact(b2Contact* contact)

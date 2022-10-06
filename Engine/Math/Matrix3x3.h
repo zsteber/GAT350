@@ -2,7 +2,7 @@
 #include "Vector2.h"
 #include "Vector3.h"
 
-namespace Solas
+namespace neu
 {
 	struct Matrix3x3
 	{

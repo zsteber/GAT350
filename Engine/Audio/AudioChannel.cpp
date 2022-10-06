@@ -1,7 +1,7 @@
 #include "AudioChannel.h"
 #include "fmod.hpp"
 
-namespace Solas
+namespace neu
 {
 	bool AudioChannel::IsPlaying()
 	{

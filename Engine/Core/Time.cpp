@@ -1,6 +1,6 @@
 #include "Time.h"
 
-namespace Solas
+namespace neu
 {
 	void Time::Tick()
 	{

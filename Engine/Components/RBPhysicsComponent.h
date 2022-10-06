@@ -2,7 +2,7 @@
 #include "PhysicsComponent.h"
 #include "Physics/PhysicsSystem.h"
 
-namespace Solas
+namespace neu
 {
 	class RBPhysicsComponent : public PhysicsComponent
 	{

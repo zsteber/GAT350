@@ -1,7 +1,7 @@
 #pragma once
 #include "GameObject.h"
 
-namespace Solas
+namespace neu
 {
 	class Actor;
 

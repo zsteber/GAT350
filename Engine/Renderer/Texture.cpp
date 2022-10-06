@@ -4,7 +4,7 @@
 #include <SDL.h>
 #include <SDL_image.h>
 
-namespace Solas
+namespace neu
 {
 	Texture::~Texture()
 	{

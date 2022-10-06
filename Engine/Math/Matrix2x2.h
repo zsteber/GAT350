@@ -1,7 +1,7 @@
 #pragma once
 #include "Vector2.h"
 
-namespace Solas
+namespace neu
 {
 	struct Matrix2x2
 	{

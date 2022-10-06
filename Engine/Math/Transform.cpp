@@ -1,6 +1,6 @@
 #include "Transform.h"
 
-namespace Solas
+namespace neu
 {
 	bool Transform::Write(const rapidjson::Value& value) const
 	{

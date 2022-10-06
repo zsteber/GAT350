@@ -1,6 +1,6 @@
 #include "ResourceManager.h"
 
-namespace Solas
+namespace neu
 {
 	void ResourceManager::Initialize()
 	{

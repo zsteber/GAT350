@@ -2,7 +2,7 @@
 #include "Core/Logger.h"
 #include <fmod.hpp> 
 
-namespace Solas
+namespace neu
 {
 	void AudioSystem::Initialize()
 	{

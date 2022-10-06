@@ -2,7 +2,7 @@
 #include "Framework/Component.h"
 #include "Audio/AudioChannel.h"
 
-namespace Solas
+namespace neu
 {
 	class Actor;
 

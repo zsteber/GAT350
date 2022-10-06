@@ -5,7 +5,7 @@
 #include <variant>
 
 
-namespace Solas
+namespace neu
 {
 	class GameObject;
 
