@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -76,7 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdPArty\SDL2-2.0.22\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
@@ -93,7 +93,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdPArty\SDL2-2.0.22\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
@@ -110,7 +110,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdPArty\SDL2-2.0.22\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
@@ -127,7 +127,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdPArty\SDL2-2.0.22\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
