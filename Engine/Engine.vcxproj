@@ -83,7 +83,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\fmod\core\inc;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdParty\glm;$(ProjectDir)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\fmod\core\inc;$(SolutionDir)ThirdParty\glad\include;C:\A. Neumont\Quarter 5\Computer Graphics\GAT350\ThirdParty\glm1;$(ProjectDir)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
@@ -94,7 +94,7 @@
     </Link>
     <Lib>
       <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_ttf.lib;SDL2_image.lib;fmod_vc.lib;box2d.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\box2d\lib;$(SolutionDir)ThirdParty\fmod\core\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\SDL2-2.0.22\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\glm</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\box2d\lib;$(SolutionDir)ThirdParty\fmod\core\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\SDL2-2.0.22\lib\$(PlatformTarget)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -105,7 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\fmod\core\inc;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdParty\glm;$(ProjectDir)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\fmod\core\inc;$(SolutionDir)ThirdParty\glad\include;C:\A. Neumont\Quarter 5\Computer Graphics\GAT350\ThirdParty\glm1;$(ProjectDir)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
@@ -120,7 +120,7 @@
       <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_ttf.lib;SDL2_image.lib;fmod_vc.lib;box2d.lib</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\box2d\lib;$(SolutionDir)ThirdParty\fmod\core\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\SDL2-2.0.22\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\glm</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\box2d\lib;$(SolutionDir)ThirdParty\fmod\core\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\SDL2-2.0.22\lib\$(PlatformTarget)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -129,7 +129,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\fmod\core\inc;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdParty\glm;$(ProjectDir)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\fmod\core\inc;$(SolutionDir)ThirdParty\glad\include;C:\A. Neumont\Quarter 5\Computer Graphics\GAT350\ThirdParty\glm1;$(ProjectDir)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
@@ -140,7 +140,7 @@
     </Link>
     <Lib>
       <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_ttf.lib;SDL2_image.lib;fmod_vc.lib;box2d.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\box2d\lib;$(SolutionDir)ThirdParty\fmod\core\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\SDL2-2.0.22\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\glm</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\box2d\lib;$(SolutionDir)ThirdParty\fmod\core\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\SDL2-2.0.22\lib\$(PlatformTarget)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -151,7 +151,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\fmod\core\inc;$(SolutionDir)ThirdParty\glad\include;$(SolutionDir)ThirdParty\glm;$(ProjectDir)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\box2d\include;$(SolutionDir)ThirdParty\rapidjson\include;$(SolutionDir)ThirdParty\SDL2-2.0.22\include;$(SolutionDir)ThirdParty\fmod\core\inc;$(SolutionDir)ThirdParty\glad\include;C:\A. Neumont\Quarter 5\Computer Graphics\GAT350\ThirdParty\glm1;$(ProjectDir)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
@@ -166,7 +166,7 @@
       <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_ttf.lib;SDL2_image.lib;fmod_vc.lib;box2d.lib</AdditionalDependencies>
     </Lib>
     <Lib>
-      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\box2d\lib;$(SolutionDir)ThirdParty\fmod\core\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\SDL2-2.0.22\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\glm</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)ThirdParty\box2d\lib;$(SolutionDir)ThirdParty\fmod\core\lib\$(PlatformTarget);$(SolutionDir)ThirdParty\SDL2-2.0.22\lib\$(PlatformTarget)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -204,6 +204,7 @@
     <ClCompile Include="Physics\PhysicsSystem.cpp" />
     <ClCompile Include="Renderer\Font.cpp" />
     <ClCompile Include="Renderer\Model.cpp" />
+    <ClCompile Include="Renderer\Program.cpp" />
     <ClCompile Include="Renderer\Renderer.cpp" />
     <ClCompile Include="Renderer\Shader.cpp" />
     <ClCompile Include="Renderer\Text.cpp" />
@@ -256,6 +257,7 @@
     <ClInclude Include="Physics\PhysicsSystem.h" />
     <ClInclude Include="Renderer\Font.h" />
     <ClInclude Include="Renderer\Model.h" />
+    <ClInclude Include="Renderer\Program.h" />
     <ClInclude Include="Renderer\Renderer.h" />
     <ClInclude Include="Renderer\Shader.h" />
     <ClInclude Include="Renderer\Text.h" />
